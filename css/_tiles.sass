@@ -1,0 +1,41 @@
+.flex-row
+	.flex-unit
+		.overlay
+			top: 0
+			left: 0
+			bottom: 0
+			right: 0
+			background: rgba(0,0,0,0.6)
+
+			transition: .76s ease all
+		transition: .76s ease all
+		flex: 1
+		min-height: 900px
+		background: black
+		color: white
+		font-family: "Playfair display"
+		-webkit-filter: grayscale(100%)
+		filter: grayscale(100%)
+		&:hover
+			filter: grayscale(0%)
+			-webkit-filter: grayscale(0%)
+			.overlay
+				background: rgba(0,0,0,0.2)
+		&:nth-of-type(1)
+			background: url("https://images.unsplash.com/photo-1499332347742-4946bddc7d94?dpr=1&auto=compress,format&fit=crop&w=1000&h=&q=80&cs=tinysrgb&crop=")
+				size: cover
+				position: center center
+		&:nth-of-type(2)
+			background: url("https://images.unsplash.com/photo-1467951591042-f388365db261?dpr=1&auto=compress,format&fit=crop&w=1000&h=&q=80&cs=tinysrgb&crop=")
+				size: cover
+				position: center center
+
+
+		h2
+			font-size: 50px
+			margin: 0
+		h6
+			font-weight: 300
+			text-transform: uppercase
+			letter-spacing: 7px
+			font-family: "Lato",sans-serif

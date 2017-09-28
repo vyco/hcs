@@ -2809,3 +2809,113 @@ body {
   box-sizing: border-box;
   font-family: "Lato",sans-serif;
   border: none; }
+
+header {
+  background: black; }
+  header nav .logo h4 {
+    color: white;
+    margin-bottom: 0;
+    font-weight: 300;
+    letter-spacing: 4px; }
+  header nav .logo h6 {
+    color: white;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px; }
+  header nav a {
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 10px; }
+  header .head-title h1 {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: 300;
+    font-size: 100px;
+    margin: 300px 0 0 0;
+    color: white; }
+  header .head-title h4 {
+    font-size: 20px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    color: white; }
+
+.flex-row .flex-unit {
+  -webkit-transition: .76s ease all;
+  -o-transition: .76s ease all;
+  transition: .76s ease all;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-height: 900px;
+  background: black;
+  color: white;
+  font-family: "Playfair display";
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+  .flex-row .flex-unit .overlay {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: .76s ease all;
+    -o-transition: .76s ease all;
+    transition: .76s ease all; }
+  .flex-row .flex-unit:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%); }
+    .flex-row .flex-unit:hover .overlay {
+      background: rgba(0, 0, 0, 0.2); }
+  .flex-row .flex-unit:nth-of-type(1) {
+    background: url("https://images.unsplash.com/photo-1499332347742-4946bddc7d94?dpr=1&auto=compress,format&fit=crop&w=1000&h=&q=80&cs=tinysrgb&crop=");
+      background-size: cover;
+      background-position: center center; }
+  .flex-row .flex-unit:nth-of-type(2) {
+    background: url("https://images.unsplash.com/photo-1467951591042-f388365db261?dpr=1&auto=compress,format&fit=crop&w=1000&h=&q=80&cs=tinysrgb&crop=");
+      background-size: cover;
+      background-position: center center; }
+  .flex-row .flex-unit h2 {
+    font-size: 50px;
+    margin: 0; }
+  .flex-row .flex-unit h6 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: "Lato",sans-serif; }
+
+.information .info-unit {
+  color: white;
+  padding: 50px; }
+  .information .info-unit .fa {
+    margin-bottom: 20px; }
+  .information .info-unit h2 {
+    margin: 0;
+    padding: 0; }
+  .information .info-unit h4 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px; }
+  .information .info-unit:nth-of-type(1) {
+    background: #EA5959; }
+  .information .info-unit:nth-of-type(2) {
+    background: #F98B60; }
+  .information .info-unit:nth-of-type(3) {
+    background: #FFC057; }
+
+h3.button {
+  background: #EA5959;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-family: "Lato",sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 300; }
